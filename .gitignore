@@ -1,0 +1,35 @@
+# tuduApp
+# === BACKEND (Python) ===
+# Entorno virtual
+venv/
+env/
+
+# Archivos compilados
+__pycache__/
+*.py[cod]
+*.so
+
+# Archivos de entorno
+.env
+
+# Bases de datos temporales o SQLite
+*.sqlite3
+
+# === FRONTEND (React) ===
+node_modules/
+build/
+dist/
+
+# Archivos de entorno de React
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === EDITORES ===
+.vscode/
+.idea/
+
+# === SISTEMA OPERATIVO ===
+.DS_Store
+Thumbs.db
